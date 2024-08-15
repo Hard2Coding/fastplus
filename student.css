@@ -1,0 +1,356 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background: transparent;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(WebsiteFile/kanlayaneebackground.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    z-index: -1;
+}
+
+.movebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transform: scale(1);
+}
+
+.profileboxmove{
+    width: 1800px;
+    height: 900px;
+}
+
+
+.box{
+    width: 1500px;
+    height: 800px;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 25px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 60px;
+    border: 5px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.outlineprofilemove{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 170px;
+}
+
+.outlineprofile{
+    background-color: black;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+
+.inlineprofilemove{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.inlineprofile{
+    background-color: white;
+    width: 490px;
+    height: 490px;
+    border-radius: 50%;
+}
+
+.classbox{
+    width: 100px;
+    height: 50px;
+    background-color:black;
+}
+
+.profilepicturemove{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    transform: translateY(-495px);
+    margin-bottom: 20px;
+}
+
+.profilepicture{
+    background-image: url(WebsiteFile/.png);
+    background-size: cover;
+    background-position-y: -2vh;
+    width: 490px;
+    height: 490px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.numberclassmove{
+    display: flex;
+    justify-content: left;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+
+.numberclass{
+    width: 300px;
+    height: 70px;
+    background-color: #19356E;
+    border-radius: 20vh;
+}
+
+.numberclasstextmove{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 65px;
+}
+
+.numberclasstext{
+    color: white;
+    font-family: "M PLUS Rounded 1c",sans-serif;
+    font-weight: 700;
+}
+
+.movetextbox{
+    position: relative;
+    display: flex;
+    margin-left: 20px;
+}
+
+.textbox{
+    width: 900px;
+    height: 450px;
+}
+
+.Text1{
+    font-family: "M PLUS Rounded 1c",sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: #3057a5;
+}
+
+.Text1t{
+    font-family: "M PLUS Rounded 1c",sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    color: #19356E;
+}
+
+
+.Text2{
+    display: flex;
+    font-family: "M PLUS Rounded 1c",sans-serif;
+    font-size: 250px;
+    font-weight: 1000;
+    color: #19356E;
+}
+
+.text3box{
+    width: 400px;
+    height: 50px;
+    background-color: #19356E;
+    border-radius: 20vh;
+}
+
+.text3move{
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Text3{
+    display: flex;
+    font-family: "M PLUS Rounded 1c",sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffff;   
+}
+
+.Text3t{
+    display: flex;
+    font-family: "M PLUS Rounded 1c",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffff; 
+}
+
+.detialmove{
+    display: flex;
+    margin-top: 8px;
+}
+
+.detialbox{
+    width: 150px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 20vh;
+    border: 2px solid rgba(25, 53, 110, 0.7);
+}
+
+.detialtextmove{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+}
+
+.detialtext{
+    display: flex;
+    font-family: "M PLUS Rounded 1c",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #19356E;     
+}
+
+.circlemove{
+    display: flex;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 150px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.circle2move{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+}
+
+.circle2{
+    width: 90px;
+    height: 90px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.whiteboxmove{
+    display: flex;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.whitebox{
+    width: 1000px;
+    height: 100px;
+    background-color: white;
+    border-radius: 20vh;
+}
+
+.whitecontentmove{
+    display: flex;
+    position: absolute;
+}
+
+.whitecontent{
+    width: 100px;
+    height: 100px;
+    border-radius: 20vh;
+}
+
+.whitecontentmove{
+    display: flex;
+    height: 135px;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.img1{
+    width: 75px;
+    
+}
+
+.content2move{
+    display: flex;
+    position: absolute;
+    margin-left: 110px;
+}
+
+.content2{
+    width: 900px;
+    height: 100px;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.textid{
+    display: flex;
+    font-family: "M PLUS Rounded 1c",sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #19356E;     
+}
+
+.copyrightmove{
+    display: flex;
+    justify-content: right;
+    margin-top: 50px;
+}
+
+.copyrightbox{
+    width: 385px;
+    height: 35px;
+}
+
+.fontcopyright{
+    position: absolute;
+    display: flex;
+    font-family: "M PLUS Rounded 1c",sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #19356E;         
+}
+.copyrightmove2{
+    display: flex;
+    justify-content: right;
+    margin-top: px;
+}
+
+.copyrightbox2{
+    width: 505px;
+    height: 0px;
+}
+
+.fontcopyright2{
+
+    display: flex;
+    font-family: "M PLUS Rounded 1c",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #19356E;         
+}
+
+
+@media (max-width: 1000px) {
+    .movebox{
+        transform: scale(0.5);
+    }
+}
+
+@media (max-width: 700px) {
+    .movebox{
+        transform: scale(0.3);
+    }
+}
